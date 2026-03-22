@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alchemical-operations-mcp"
+version = "1.0.0"
+description = "Jungian alchemical operations as psychological transformation morphisms"
+authors = [{name = "Dal Marsters", email = "dal@lushy.app"}]
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=0.2.0",
+    "pyyaml>=6.0.1"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0"
+]
+
+[project.scripts]
+alchemical-operations = "alchemical_operations.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/alchemical_operations"]
