@@ -1,0 +1,476 @@
+# Alchemical Operations Olog
+# Based on Edward Edinger's "Alchemical Symbolism in Psychotherapy"
+
+operations:
+  calcinatio:
+    name: "Calcinatio"
+    description: "Heating/burning - reduction to essentials through intensity"
+    element: "Fire"
+    
+    keywords:
+      primary:
+        - burn
+        - fire
+        - heat
+        - intense
+        - crystallize
+        - reduce
+        - purify
+      secondary:
+        - forge
+        - refine
+        - distill
+        - concentrate
+        - essential
+        - core
+        - strip
+      emotional:
+        - passionate
+        - driven
+        - focused
+        - urgent
+        - extreme
+    
+    structural_patterns:
+      - pattern: "strip away"
+        weight: 0.6
+      - pattern: "burn off"
+        weight: 0.6
+      - pattern: "reduce to"
+        weight: 0.6
+      - pattern: "get to the core"
+        weight: 0.6
+      - pattern: "intense"
+        weight: 0.4
+      - pattern: "concentrated"
+        weight: 0.4
+    
+    transformation_direction:
+      from: "complex, cool, diffuse"
+      to: "simple, hot, concentrated"
+      trajectory: "reductive_upward"
+    
+    psychological_process: "Ego inflation meets reality; reduction through suffering or passion"
+    
+    visual_parameters:
+      temperature: "hot"
+      complexity: "decreased"
+      boundaries: "hardened"
+      weight: "increased"
+      contrast: "increased"
+  
+  solutio:
+    name: "Solutio"
+    description: "Dissolving/melting - return to fluid, emotional states"
+    element: "Water"
+    
+    keywords:
+      primary:
+        - dissolve
+        - melt
+        - flow
+        - liquid
+        - fluid
+        - soften
+        - permeable
+      secondary:
+        - wash
+        - cleanse
+        - release
+        - surrender
+        - let go
+        - merge
+        - blend
+      emotional:
+        - emotional
+        - feeling
+        - vulnerable
+        - open
+        - flowing
+    
+    structural_patterns:
+      - pattern: "dissolve"
+        weight: 0.6
+      - pattern: "melt away"
+        weight: 0.6
+      - pattern: "flow"
+        weight: 0.6
+      - pattern: "soften"
+        weight: 0.6
+      - pattern: "permeable"
+        weight: 0.4
+      - pattern: "blurred"
+        weight: 0.4
+    
+    transformation_direction:
+      from: "solid, rigid, boundaried"
+      to: "liquid, flexible, merged"
+      trajectory: "softening_downward"
+    
+    psychological_process: "Rigid structures dissolve; return to pre-form emotional state"
+    
+    visual_parameters:
+      temperature: "cool"
+      boundaries: "softened"
+      clarity: "decreased"
+      fluidity: "increased"
+      separation: "decreased"
+  
+  coagulatio:
+    name: "Coagulatio"
+    description: "Solidifying/forming - abstract becomes concrete"
+    element: "Earth"
+    
+    keywords:
+      primary:
+        - solidify
+        - form
+        - concrete
+        - structure
+        - build
+        - materialize
+        - ground
+      secondary:
+        - embody
+        - manifest
+        - realize
+        - construct
+        - establish
+        - consolidate
+        - anchor
+      emotional:
+        - grounded
+        - stable
+        - embodied
+        - practical
+        - real
+    
+    structural_patterns:
+      - pattern: "take form"
+        weight: 0.6
+      - pattern: "solidify"
+        weight: 0.6
+      - pattern: "become real"
+        weight: 0.6
+      - pattern: "grounded"
+        weight: 0.4
+      - pattern: "concrete"
+        weight: 0.4
+    
+    transformation_direction:
+      from: "abstract, formless, potential"
+      to: "concrete, formed, actual"
+      trajectory: "materialization"
+    
+    psychological_process: "Formless content gains structure; abstract becomes concrete"
+    
+    visual_parameters:
+      density: "increased"
+      structure: "increased"
+      materiality: "increased"
+      abstraction: "decreased"
+      form_definition: "increased"
+  
+  sublimatio:
+    name: "Sublimatio"
+    description: "Vaporizing/ascending - material raised to spiritual"
+    element: "Air"
+    
+    keywords:
+      primary:
+        - elevate
+        - refine
+        - transcend
+        - ascend
+        - lighten
+        - purify
+        - spiritualize
+      secondary:
+        - rise
+        - uplift
+        - clarify
+        - subtle
+        - rarefied
+        - essence
+        - ideal
+      emotional:
+        - inspired
+        - elevated
+        - light
+        - clear
+        - transcendent
+    
+    structural_patterns:
+      - pattern: "rise above"
+        weight: 0.6
+      - pattern: "transcend"
+        weight: 0.6
+      - pattern: "elevate"
+        weight: 0.6
+      - pattern: "refined"
+        weight: 0.4
+      - pattern: "purified"
+        weight: 0.4
+    
+    transformation_direction:
+      from: "heavy, material, earthly"
+      to: "light, spiritual, airy"
+      trajectory: "upward_refinement"
+    
+    psychological_process: "Material raised to spiritual; refinement upward"
+    
+    visual_parameters:
+      weight: "decreased"
+      lightness: "increased"
+      refinement: "increased"
+      materiality: "decreased"
+      clarity: "increased"
+  
+  mortificatio:
+    name: "Mortificatio"
+    description: "Death/blackening - ego death, shadow encounter"
+    element: "Shadow"
+    
+    keywords:
+      primary:
+        - death
+        - decay
+        - darken
+        - end
+        - kill
+        - rot
+        - blacken
+      secondary:
+        - sacrifice
+        - surrender
+        - decompose
+        - fade
+        - wither
+        - perish
+        - extinct
+      emotional:
+        - grief
+        - loss
+        - dark
+        - heavy
+        - depressed
+        - defeated
+    
+    structural_patterns:
+      - pattern: "die"
+        weight: 0.6
+      - pattern: "end"
+        weight: 0.6
+      - pattern: "kill"
+        weight: 0.6
+      - pattern: "decay"
+        weight: 0.4
+      - pattern: "rot"
+        weight: 0.4
+    
+    transformation_direction:
+      from: "alive, vibrant, whole"
+      to: "dead, dark, fragmented"
+      trajectory: "downward_dissolution"
+    
+    psychological_process: "Ego death; encounter with shadow; necessary ending"
+    
+    visual_parameters:
+      darkness: "increased"
+      vitality: "decreased"
+      entropy: "increased"
+      structure: "decreased"
+      weight: "increased"
+  
+  separatio:
+    name: "Separatio"
+    description: "Dividing/discriminating - seeing distinctions clearly"
+    element: "Analysis"
+    
+    keywords:
+      primary:
+        - separate
+        - divide
+        - distinguish
+        - discriminate
+        - analyze
+        - differentiate
+        - clarify
+      secondary:
+        - isolate
+        - extract
+        - purify
+        - discern
+        - categorize
+        - sort
+        - define
+      emotional:
+        - clear
+        - distinct
+        - objective
+        - detached
+        - analytical
+    
+    structural_patterns:
+      - pattern: "separate"
+        weight: 0.6
+      - pattern: "divide"
+        weight: 0.6
+      - pattern: "distinguish"
+        weight: 0.6
+      - pattern: "clear"
+        weight: 0.4
+      - pattern: "distinct"
+        weight: 0.4
+    
+    transformation_direction:
+      from: "merged, confused, ambiguous"
+      to: "separate, clear, distinct"
+      trajectory: "analytical_division"
+    
+    psychological_process: "Discrimination; analysis; seeing distinctions clearly"
+    
+    visual_parameters:
+      boundary_clarity: "increased"
+      separation: "increased"
+      definition: "increased"
+      ambiguity: "decreased"
+      contrast: "increased"
+  
+  coniunctio:
+    name: "Coniunctio"
+    description: "Union/marriage - reunion of opposites, integration"
+    element: "Synthesis"
+    
+    keywords:
+      primary:
+        - unite
+        - join
+        - merge
+        - integrate
+        - combine
+        - marry
+        - synthesize
+      secondary:
+        - balance
+        - harmonize
+        - blend
+        - unify
+        - wholeness
+        - together
+        - connect
+      emotional:
+        - whole
+        - complete
+        - balanced
+        - harmonious
+        - integrated
+    
+    structural_patterns:
+      - pattern: "bring together"
+        weight: 0.6
+      - pattern: "unite"
+        weight: 0.6
+      - pattern: "integrate"
+        weight: 0.6
+      - pattern: "whole"
+        weight: 0.4
+      - pattern: "balanced"
+        weight: 0.4
+    
+    transformation_direction:
+      from: "separate, divided, opposed"
+      to: "united, integrated, whole"
+      trajectory: "synthetic_union"
+    
+    psychological_process: "Reunion of opposites; integration; achievement of wholeness"
+    
+    visual_parameters:
+      integration: "increased"
+      balance: "increased"
+      harmony: "increased"
+      separation: "decreased"
+      wholeness: "increased"
+
+complementary_pairs:
+  calcinatio_solutio:
+    operations:
+      - calcinatio
+      - solutio
+    relationship: "Fire dries, water dissolves; heating vs cooling"
+    
+  coagulatio_solutio:
+    operations:
+      - coagulatio
+      - solutio
+    relationship: "Solidifying vs dissolving; forming vs melting"
+  
+  sublimatio_mortificatio:
+    operations:
+      - sublimatio
+      - mortificatio
+    relationship: "Ascending vs descending; life vs death; light vs shadow"
+  
+  separatio_coniunctio:
+    operations:
+      - separatio
+      - coniunctio
+    relationship: "Dividing vs uniting; analysis vs synthesis"
+
+valid_sequences:
+  purification_arc:
+    sequence:
+      - calcinatio
+      - solutio
+      - coagulatio
+    description: "Burn away excess, dissolve rigidity, reform with essence"
+    psychological_meaning: "Transformation through reduction and reformation"
+  
+  individuation_arc:
+    sequence:
+      - separatio
+      - mortificatio
+      - coniunctio
+    description: "Discriminate parts, encounter shadow, integrate into wholeness"
+    psychological_meaning: "Jung's individuation process"
+  
+  refinement_arc:
+    sequence:
+      - calcinatio
+      - sublimatio
+    description: "Burn away dross, elevate what remains"
+    psychological_meaning: "Purification and elevation"
+  
+  dissolution_reformation_arc:
+    sequence:
+      - solutio
+      - coagulatio
+    description: "Dissolve old forms, allow new forms to emerge"
+    psychological_meaning: "Death and rebirth cycle"
+
+invalid_sequences:
+  premature_union:
+    sequence:
+      - coniunctio
+      - separatio
+    description: "Cannot unite before discriminating what needs integration"
+    reason: "Synthesis without prior analysis leads to false wholeness"
+  
+  double_reduction:
+    sequence:
+      - calcinatio
+      - mortificatio
+    description: "Burning followed by death is excessive destruction"
+    reason: "Double reduction without reformation is pathological"
+  
+  perpetual_dissolution:
+    sequence:
+      - solutio
+      - solutio
+    description: "Repeated dissolving without reformation"
+    reason: "Loss of structure without recovery leads to fragmentation"
+
+detection_weights:
+  keyword_match: 0.30
+  structural_pattern: 0.50
+  transformation_direction: 0.20
